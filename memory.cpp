@@ -1,5 +1,5 @@
-#include <iostream>
-#include <memory>
+#include <iostream> // for output
+#include <memory> // for smart pointers
 
 int main() {
     std::unique_ptr p = std::make_unique <int> (5); // to make array do: std::unique_ptr ptr = std::make_unique <char[]> (size of array);
