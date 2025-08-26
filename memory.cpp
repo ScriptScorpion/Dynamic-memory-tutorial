@@ -3,7 +3,7 @@
 
 int main() {
     std::unique_ptr p = std::make_unique <int> (5); // to make array do: std::unique_ptr ptr = std::make_unique <char[]> (size of array);
-    std::unique_ptr <int> ptr(new int(10)); // to make array do: std::unique_ptr <char[]> ptr(new char[size of array]);
+    std::unique_ptr <int> ptr(new int(10)); // to make array do: std::unique_ptr <char[]> ptr(new char[size of array]{"example"});
     std::shared_ptr point = std::make_shared <int> (15); // same as above, just change names to shared_ptr
     std::shared_ptr <int> pointer(new int(20)); // same as above, just change names to shared_ptr
     int *pointers = (int*)malloc(sizeof(int)); // by default is 0, it is works with '(type)' and with `static_cast<type>`
