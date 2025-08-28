@@ -6,6 +6,7 @@ Dynamic memory - is that memory that are allocated to heap instead of stack. **H
   + Resizable size (size of array can grow if not enough size)
   + Can control lifetime of variable or array
   - Can lead to memory leaks if you not deleted allocated memory
+
 **Static memory:**
   + Auto deletion at the end of program (some say that is disadvantage but i think it is safer)
   + Don't need to worry about memory leaks because it is stack
